@@ -1,0 +1,14 @@
+webview {
+  width: 100% !important;
+  /*height: 100% !important;*/
+  height: calc(100vh - 44px) !important;
+  top: 44px !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  position: absolute !important;
+  visibility: hidden !important;
+}
+webview.visible {
+  visibility: visible !important;
+}
